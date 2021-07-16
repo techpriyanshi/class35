@@ -17,7 +17,7 @@ function setup() {
   dog.addImage(dogImg);
   dog.scale=0.15;
 
-  foodStock=database.ref('Food');
+  foodStock = database.ref('Food');
   foodStock.on("value",readStock);
   textSize(20); 
 }
